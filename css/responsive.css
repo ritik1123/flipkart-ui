@@ -1,0 +1,25 @@
+@media screen and (max-width:1000px){
+    body{
+        background-color: blueviolet;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .pic{
+        justify-content: center;
+        margin: 12px 0;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    .search{
+        justify-content: center;
+    }
+    .slider{
+        height: 23vh;
+    }
+    .card-item img{
+        width: 130px;
+        overflow: scroll;
+    }
+}
